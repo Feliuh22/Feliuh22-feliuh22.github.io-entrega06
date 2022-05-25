@@ -4,6 +4,29 @@ body {
     align-items: center;
 }
 
+/* NavBar */
+nav ul li a {
+    background: #4f8c4d;
+    display: block;
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px;
+    font-weight: bold;
+    margin-left: 20px;
+    border: 5px #4f8c4d ridge;
+}
+
+nav ul li a:hover {
+    color: #fa9b15;
+}
+
+.active {
+    background-color: #ea830d;
+    color: white;
+}
+
 /* FOOTER */
 .footer {
     display: grid;
@@ -94,4 +117,109 @@ body {
     text-decoration: none;
     color: #0df053;
     background: #fff;
+}
+
+/* MEDIA QUERIES */
+@media screen and (min-width: 320px) {
+    .nosotros {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .nosotros .caja {
+        width: 100%;
+        text-align: center;
+        display: block;
+    }
+
+    form {
+        width: 100%;
+    }
+
+    .title {
+        font-size: 30px;
+        padding-top: 0%;
+        color: #31384A;
+        text-decoration-style: dotted;
+    }
+
+    .container-all img {
+        width: 100%;
+    }
+
+    .nosotros .caja {
+        grid-row: span 2;
+        text-align: center;
+        grid-template-rows: max-content;
+    }
+
+    .footer {
+        text-align: center;
+    }
+
+    .footer .sociales {
+        display: block;
+        flex-direction: row-reverse;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 480px) {
+    .nosotros {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .nosotros .caja {
+        width: 100%;
+        text-align: center;
+        display: block;
+    }
+
+    form {
+        width: 100%;
+    }
+
+    .title {
+        font-size: 30px;
+        padding-top: 0%;
+        color: #112b6c;
+        text-decoration-line: overline;
+    }
+
+    .container-all img {
+        width: 100%;
+    }
+
+    .nosotros .caja {
+        grid-row: span 2;
+        text-align: center;
+        grid-template-rows: max-content;
+    }
+
+    .footer {
+        text-align: center;
+    }
+
+    .sociales {
+        display: block;
+        flex-direction: row-reverse;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .nosotros {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .nosotros .caja {
+        width: 100%;
+        text-align: center;
+        display: block;
+    }
 }

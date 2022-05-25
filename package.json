@@ -1,5 +1,5 @@
 {
-  "name": "clase-13",
+  "name": "entrega-06",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -296,5 +296,13 @@
     "yargs": "^17.4.1",
     "yargs-parser": "^20.2.9"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Feliuh22/Feliuh22-feliuh22.github.io-entrega06.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Feliuh22/Feliuh22-feliuh22.github.io-entrega06/issues"
+  },
+  "homepage": "https://github.com/Feliuh22/Feliuh22-feliuh22.github.io-entrega06#readme",
   "description": ""
 }
